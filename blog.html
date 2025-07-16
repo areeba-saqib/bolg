@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mindscape</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="Search...">
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">Discover & Share Amazing Ideas</h1>
+            <p class="hero-subtitle">Explore thought-provoking articles on technology, lifestyle, business and more from passionate writers around the world</p>
+            <button class="btn btn-primary btn-lg">Start Reading</button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Blog Posts -->
+                <div class="col-lg-8">
+                    <div class="row">
+                        <!-- Featured Post -->
+                        <div class="col-md-12 mb-4">
+                            <div class="blog-card">
+                                <img src="img1.jpg" class="card-img-top" alt="Featured Post">
+                                <div class="card-body">
+                                    <span class="category-badge">Technology</span>
+                                    <h2 class="card-title">The Future of Artificial Intelligence in Everyday Life</h2>
+                                    <p class="card-text">Exploring how AI will transform our daily routines, from smart homes to personalized healthcare, and what it means for the future of work and leisure.</p>
+                                    <div class="author-info">
+                                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="author-img" alt="Author">
+                                        <div>
+                                            <p class="author-name">John Smith</p>
+                                            <p class="post-date">May 15, 2025 · 8 min read</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-primary mt-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Regular Posts -->
+                        <div class="col-md-6">
+                            <div class="blog-card">
+                                <img src="img4.avif" class="card-img-top" alt="Post 1">
+                                <div class="card-body">
+                                    <span class="category-badge">Business</span>
+                                    <h3 class="card-title">10 Productivity Hacks for Remote Workers</h3>
+                                    <p class="card-text">Practical tips to stay focused and efficient while working from home based on scientific research and expert advice.</p>
+                                    <div class="author-info">
+                                        <img src="img5.jpg" class="author-img" alt="Author">
+                                        <div>
+                                            <p class="author-name">Sarah Johnson</p>
+                                            <p class="post-date">May 10, 2025 · 6 min read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="blog-card">
+                                <img src="img6.avif" class="card-img-top" alt="Post 2">
+                                <div class="card-body">
+                                    <span class="category-badge">Lifestyle</span>
+                                    <h3 class="card-title">Minimalism: Living With Less for More Happiness</h3>
+                                    <p class="card-text">How adopting a minimalist approach to possessions can lead to greater freedom, reduced stress, and increased life satisfaction.</p>
+                                    <div class="author-info">
+                                        <img src="img7.jpg" class="author-img" alt="Author">
+                                        <div>
+                                            <p class="author-name">Michael Chen</p>
+                                            <p class="post-date">May 5, 2025 · 5 min read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="blog-card">
+                                <img src="img8.avif" class="card-img-top" alt="Post 3">
+                                <div class="card-body">
+                                    <span class="category-badge">Health</span>
+                                    <h3 class="card-title">The Science of Sleep: Why 8 Hours Isn't Enough</h3>
+                                    <p class="card-text">New research reveals why sleep quality matters more than quantity and how to optimize your sleep for better health and performance.</p>
+                                    <div class="author-info">
+                                        <img src="img9.jpg" class="author-img" alt="Author">
+                                        <div>
+                                            <p class="author-name">Dr. Emily Wilson</p>
+                                            <p class="post-date">April 28, 2025 · 7 min read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="blog-card">
+                                <img src="img10.avif" class="card-img-top" alt="Post 4">
+                                <div class="card-body">
+                                    <span class="category-badge">Travel</span>
+                                    <h3 class="card-title">Hidden Gems: Unexplored Destinations for 2023</h3>
+                                    <p class="card-text">Discover breathtaking locations around the world that remain off the tourist radar but offer unforgettable experiences.</p>
+                                    <div class="author-info">
+                                        <img src="img11.jpg" class="author-img" alt="Author">
+                                        <div>
+                                            <p class="author-name">David Miller</p>
+                                            <p class="post-date">April 20, 2025 · 9 min read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pagination -->
+                        <div class="col-md-12 mt-4">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                    </li>
+                                    <li class="#"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- About Widget -->
+                    <div class="sidebar-widget">
+                        <h4 class="widget-title">About</h4>
+                        <p>Welcome to Mindscape, a blog dedicated to exploring ideas that shape our world. We publish thoughtful articles on technology, business, lifestyle and more.</p>
+                    </div>
+
+                    <!-- Popular Posts -->
+                    <div class="sidebar-widget">
+                        <h4 class="widget-title">Popular Posts</h4>
+                        <div class="popular-post">
+                            <img src="img1.jpg" class="popular-post-img" alt="Popular Post">
+                            <div>
+                                <h5 class="popular-post-title">The Future of AI in Everyday Life</h5>
+                                <p class="popular-post-date">May 15, 2023</p>
+                            </div>
+                        </div>
+                        <div class="popular-post">
+                            <img src="img4.avif" class="popular-post-img" alt="Popular Post">
+                            <div>
+                                <h5 class="popular-post-title">10 Productivity Hacks for Remote Workers</h5>
+                                <p class="popular-post-date">May 10, 2023</p>
+                            </div>
+                        </div>
+                        <div class="popular-post">
+                            <img src="img6.avif" class="popular-post-img" alt="Popular Post">
+                            <div>
+                                <h5 class="popular-post-title">Minimalism: Living With Less</h5>
+                                <p class="popular-post-date">May 5, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categories -->
+                    <div class="sidebar-widget">
+                        <h4 class="widget-title">Categories</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Technology
+                                <span class="badge bg-primary rounded-pill">14</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Business
+                                <span class="badge bg-primary rounded-pill">8</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Lifestyle
+                                <span class="badge bg-primary rounded-pill">12</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Health
+                                <span class="badge bg-primary rounded-pill">5</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Travel
+                                <span class="badge bg-primary rounded-pill">7</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Tags -->
+                    <div class="sidebar-widget">
+                        <h4 class="widget-title">Tags</h4>
+                        <div class="tags-container">
+                            <a href="#" class="tag">Technology</a>
+                            <a href="#" class="tag">AI</a>
+                            <a href="#" class="tag">Productivity</a>
+                            <a href="#" class="tag">Remote Work</a>
+                            <a href="#" class="tag">Minimalism</a>
+                            <a href="#" class="tag">Wellness</a>
+                            <a href="#" class="tag">Travel</a>
+                            <a href="#" class="tag">Finance</a>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="sidebar-widget">
+                        <h4 class="widget-title">Newsletter</h4>
+                        <p>Subscribe to get our latest articles delivered to your inbox.</p>
+                        <form class="newsletter-form">
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h3 class="footer-title">Mindscape</h3>
+                    <p>A blog dedicated to exploring ideas that shape our world. Thoughtful articles on technology, business, lifestyle and more.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Categories</a>
+                        <a href="#">Popular Posts</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h3 class="footer-title">Categories</h3>
+                    <div class="footer-links">
+                        <a href="#">Technology</a>
+                        <a href="#">Business</a>
+                        <a href="#">Lifestyle</a>
+                        <a href="#">Health</a>
+                        <a href="#">Travel</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h3 class="footer-title">Contact</h3>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> 123 Blog Street, pakistan, NY</p>
+                    <p><i class="fas fa-envelope me-2"></i> contact@mindscape.com</p>
+                    <p><i class="fas fa-phone me-2"></i> +92555123-4567</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Mindscape. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
